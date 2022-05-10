@@ -16,6 +16,11 @@ const onDayClick = (day: any) => {
     })
   }
   console.log('days', days);
+  console.log(1);
+}
+
+const logme = () => {
+  console.log('logme');
 }
 
 const attributes = computed(() => {
@@ -30,7 +35,17 @@ const attributes = computed(() => {
 
 <template>
   <Calendar :rows="3" :attributes="attributes" @dayclick="onDayClick" />
+  <DatePicker :rows="3" :attributes="attributes" @dayclick="onDayClick">
+    <template v-slot:day-content="{ day, attributes }">
+      <div class="diy-title flex flex-col h-full z-10 overflow-hidden" @click="onDayClick(day)">
+        <span>{{ day.day + '*' }}</span>
+      </div>
+    </template>
+  </DatePicker>
 </template>
 
 <style scoped>
+/* .diy-title {
+  pointer-events: none;
+} */
 </style>

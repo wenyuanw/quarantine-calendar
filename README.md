@@ -10,7 +10,8 @@ yarn dev
 ```
 
 # TODO
-[在线体验]()
+- LocalStorage 存储
+- [在线体验]()
 
 # 插件
 日历插件使用的是：[v-calendar](https://github.com/nathanreyes/v-calendar)
