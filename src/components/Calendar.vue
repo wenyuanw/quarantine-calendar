@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// ts-ignore
+// @ts-ignore
 import { ref, reactive, computed } from 'vue' 
 import domtoimage from 'dom-to-image'
 import { Calendar } from 'v-calendar'
