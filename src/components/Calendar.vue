@@ -71,7 +71,7 @@ const savePicture = () => {
   <button class="save-btn" @click="keepPicture()">生成图片</button>
   <button class="save-btn" @click="savePicture()">下载图片</button>
   <div class="calendar-box" ref="savePictureRef">
-    <Calendar :rows="3" :attributes="days" :step="1" :max-date="new Date()">
+    <Calendar :rows="3" :attributes="days" :step="1" :max-date="new Date()" is-expanded>
       <template v-slot:day-content="{ day }">
         <div class="diy-title flex flex-col h-full z-10 overflow-hidden" @click="onDayClick(day)">
           <div class="day-box">
