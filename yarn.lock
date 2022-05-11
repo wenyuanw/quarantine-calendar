@@ -442,6 +442,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-to-image@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "dom-to-image@npm:2.6.0"
+  checksum: 0d1f450b776d36f3ec982783d2a3898baaa3697f135ed0a9c70085db6bc5ac6def02f5ed7affc6acb92ef4fb3248905fabec915fed541994383d317260f784a2
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -1218,6 +1225,7 @@ __metadata:
   resolution: "quarantine-calendar@workspace:."
   dependencies:
     "@vitejs/plugin-vue": ^2.3.1
+    dom-to-image: ^2.6.0
     typescript: ^4.5.4
     v-calendar: next
     vite: ^2.9.7

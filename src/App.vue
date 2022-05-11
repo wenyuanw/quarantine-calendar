@@ -8,11 +8,14 @@ import Calendar from './components/Calendar.vue'
 
 <style>
 #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: rgba(247,250,252,0.9);
+  background-color: rgba(247, 250, 252, 0.9);
 }
 </style>

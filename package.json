@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dom-to-image": "^2.6.0",
     "v-calendar": "next",
     "vue": "^3.2.25"
   },

@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@vitejs/plugin-vue", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.3.2"],\
+            ["dom-to-image", "npm:2.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["v-calendar", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:3.0.0-alpha.8"],\
             ["vite", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.9.8"],\
@@ -586,6 +587,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/depd-npm-1.1.2-b0c8414da7-6b406620d2.zip/node_modules/depd/",\
           "packageDependencies": [\
             ["depd", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dom-to-image", [\
+        ["npm:2.6.0", {\
+          "packageLocation": "./.yarn/unplugged/dom-to-image-npm-2.6.0-8af9792314/node_modules/dom-to-image/",\
+          "packageDependencies": [\
+            ["dom-to-image", "npm:2.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1437,6 +1447,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["quarantine-calendar", "workspace:."],\
             ["@vitejs/plugin-vue", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.3.2"],\
+            ["dom-to-image", "npm:2.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
             ["v-calendar", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:3.0.0-alpha.8"],\
             ["vite", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.9.8"],\
