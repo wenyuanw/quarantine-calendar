@@ -32,7 +32,7 @@ const dateInRang = (id: any) => {
 const savePicture = ref(null)
 const keepPicture = () => {
   domtoimage
-    .toJpeg(savePicture.value, { quality: 1 })
+    .toJpeg(savePicture.value as any, { quality: 1 })
     .then(function (dataUrl: any) {
       let link = document.createElement('a')
       link.download = '隔离日历.png'
