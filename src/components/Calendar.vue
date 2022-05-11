@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, reactive, computed } from 'vue'
+// ts-ignore
+import { ref, reactive, computed } from 'vue' 
 import domtoimage from 'dom-to-image'
 import { Calendar } from 'v-calendar'
 import { dateToNum, getCurDate } from '../utils/tool'
