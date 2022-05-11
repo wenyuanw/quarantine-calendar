@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@types/dom-to-image", "npm:2.6.4"],\
             ["@vitejs/plugin-vue", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.3.2"],\
             ["dom-to-image", "npm:2.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\
@@ -119,6 +120,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-ad87447820.zip/node_modules/@tootallnate/once/",\
           "packageDependencies": [\
             ["@tootallnate/once", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/dom-to-image", [\
+        ["npm:2.6.4", {\
+          "packageLocation": "./.yarn/cache/@types-dom-to-image-npm-2.6.4-0df01bbccc-ddc8d74b94.zip/node_modules/@types/dom-to-image/",\
+          "packageDependencies": [\
+            ["@types/dom-to-image", "npm:2.6.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1446,6 +1456,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["quarantine-calendar", "workspace:."],\
+            ["@types/dom-to-image", "npm:2.6.4"],\
             ["@vitejs/plugin-vue", "virtual:d115b82bf1aae148bf058e359cc2d01ae2fa1a293e406ded06b50985139c13b5a5a8379140886a0cccfcef5c236b173b810f9d5b16e39826d42ad938927d758f#npm:2.3.2"],\
             ["dom-to-image", "npm:2.6.0"],\
             ["typescript", "patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"],\

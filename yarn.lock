@@ -72,6 +72,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/dom-to-image@npm:^2.6.4":
+  version: 2.6.4
+  resolution: "@types/dom-to-image@npm:2.6.4"
+  checksum: ddc8d74b944909040a6e6d9ca2feb246b50dc8c3ad908a90634fb6e46e4c438b47aa0a5df4994bd19c1d6f110eb90a15146d1c1a7b8762ab9d050f70e6de4050
+  languageName: node
+  linkType: hard
+
 "@types/lodash@npm:^4.14.165":
   version: 4.14.182
   resolution: "@types/lodash@npm:4.14.182"
@@ -1224,6 +1231,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quarantine-calendar@workspace:."
   dependencies:
+    "@types/dom-to-image": ^2.6.4
     "@vitejs/plugin-vue": ^2.3.1
     dom-to-image: ^2.6.0
     typescript: ^4.5.4
