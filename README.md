@@ -24,7 +24,11 @@ yarn dev
 ## TODO
 - [ ] LocalStorage 存储
 
+## BUG
 
+- [ ] 微信打开无法保存图片
+- [ ] 保存图片的清晰度过低
+- [ ] IOS 端生成图片中 checkbox 的样式不对
 
 
 
