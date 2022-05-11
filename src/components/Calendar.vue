@@ -82,6 +82,7 @@ const savePicture = () => {
       </template>
     </Calendar>
   </div>
+  <a href="https://github.com/wenyuanw/quarantine-calendar">GitHub</a>
 </template>
 
 <style>
