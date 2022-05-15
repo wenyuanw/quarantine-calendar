@@ -129,7 +129,7 @@ input[type='checkbox'] {
 }
 
 input[type='checkbox']:checked {
-  background: url('../assets/test.jpg') no-repeat;
+  background: url('../assets/test2.jpg') no-repeat;
   background-size: 100% 100%;
   color: #ece3e3;
   content: '';
